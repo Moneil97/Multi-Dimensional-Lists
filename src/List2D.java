@@ -66,6 +66,19 @@ public class List2D<Type> {
 		return l;
 	}
 	
+	/**
+	 * I want to overload it but can't because List2D (the parameter, not return type) is generic
+	 * 
+	 * if stencil of ints: 1 for populate, 0 for blank, -1 for reference (center)
+	 *         of strings: p for populate, n for blank, r for reference
+	 */
+	public List2D<Type> getSketch(List2D<Object> stencil) {
+		if (stencil.get(0,0) instanceof Integer) { //there's gotta be a better way to do this
+			
+		}
+		return null;
+	}
+	
 	public void print(){
 		System.out.print(toString());
 		/*
