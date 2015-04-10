@@ -24,9 +24,6 @@ public class Tester {
 
 		x.set(1, 4, 560);
 		x.print();
-		
-		
-		
 	}
 	
 	public static void say(Object s){

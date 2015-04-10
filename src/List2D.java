@@ -59,6 +59,8 @@ public class List2D<Type> {
 	}
 	
 	public void print(){
+		System.out.print(toString());
+		/*
 		System.out.print("[");
 		for (int i =0; i < list.size(); i++){
 				System.out.print("{");
@@ -72,6 +74,7 @@ public class List2D<Type> {
 				else
 					System.out.print("}]");
 		}
+		*/
 	}
 	
 	public String toString(){
