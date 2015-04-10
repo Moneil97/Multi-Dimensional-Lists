@@ -58,6 +58,14 @@ public class List2D<Type> {
 		return col;
 	}
 	
+	public List<Type> to1DList() {
+		List<Type> l = new ArrayList<Type>();
+		for (List<Type> row : list)
+			for (Type t : row)
+				l.add(t);
+		return l;
+	}
+	
 	public void print(){
 		System.out.print(toString());
 		/*
